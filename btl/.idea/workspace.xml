@@ -6,20 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a19fed2e-f472-4290-97e7-ed0a50b2c5cc" name="Default Changelist" comment="헤더 푸터 수정">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reviewChart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/indexStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/Chart.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/Chart.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/reivewChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/btl/findjob/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/btl/findjob/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/includes/footer.jsp" afterDir="false" />
+    <list default="true" id="a19fed2e-f472-4290-97e7-ed0a50b2c5cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/includes/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reviewChart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reviewChart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/btl/findjob/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/btl/findjob/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/btl/findjob/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/btl/findjob/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/includes/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/reviewChart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/findjob-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/reviewChart.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +188,7 @@
       <workItem from="1567066969812" duration="4835000" />
       <workItem from="1567117862439" duration="4297000" />
       <workItem from="1567129529103" duration="4104000" />
-      <workItem from="1567144039087" duration="2496000" />
+      <workItem from="1567144039087" duration="4253000" />
     </task>
     <task id="LOCAL-00001" summary="수">
       <created>1567076588196</created>
@@ -207,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567129888548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="헤더 푸터 차트">
+      <created>1567146785350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567146785350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +233,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="수정" />
     <MESSAGE value="헤더 푸터 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤더 푸터 수정" />
+    <MESSAGE value="헤더 푸터 차트" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤더 푸터 차트" />
   </component>
 </project>

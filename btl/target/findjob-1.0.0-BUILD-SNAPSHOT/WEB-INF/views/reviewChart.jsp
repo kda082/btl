@@ -2,6 +2,8 @@
          pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ include file="includes/header.jsp" %>
+<%--reviewChart js 불러오기위해서--%>
+<script type="text/javascript" src="resources/js/reivewChart.js"></script>
 
 <section>
     <!--면접후기-->
@@ -189,24 +191,6 @@
     </div>
 
 </section>
-
-
-<footer class="main-footer">
-    <hr class="foot-hr">
-    <div class="footer-nav col-md-auto">
-        <div class="footer-nav-left" style="font-size: 15px; font-weight: bold;">
-            <div class="row">
-                <div class="footer-infos col-sm-2 pull-left">
-                    <a href="${contextPath}/faq">FAQ</a>
-                </div>
-                <div class="footer-infos col-sm-10 text-right">
-                    <strong>Copyright &copy;<a href="https://github.com/" target="_blank">BTL</a></strong> All rights
-                    reserved.
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
 <%@ include file="includes/footer.jsp" %>
 

@@ -22,86 +22,146 @@
         </article>
     </div>
 
+    <!--carousel-->
+    <div class="row">
+        <div class="col-md-12">
+            <div id="infoCarousel" class="carousel slide" data-ride="carousel">
 
-    <div id="carouselInterval" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselInterval" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselInterval" data-slide-to="1"></li>
-            <li data-target="#carouselInterval" data-slide-to="2"></li>
-        </ol>
+                <ol class="carousel-indicators">
+                    <li data-target="#infoCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#infoCarousel" data-slide-to="1"></li>
+                    <li data-target="#infoCarousel" data-slide-to="2"></li>
+                </ol>
 
-        <div class="carousel-inner text-center">
-            <div class="carousel-item active" data-interval="1000">
-                <div class="col-lg-6 float-left">
-                    <p>회전목마 회전목마</p>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <h5>테스트</h5>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <h5>비추</h5>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+
+                            </div>
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <h5>팀 장 추 천</h5>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 text-center"><h5>추 천 기업</h5>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+
+                            </div>
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <h5>순위별</h5>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <h5>랜덤</h5>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                                <a href="#">
+                                    <p>채용정보1 페이지2</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
                 </div>
-                <div class="col-lg-6 float-right">
-                    <p>난 집간다</p>
-                </div>
-                <div class="col-lg-6 float-left">
-                    <p>회전목마 회전목마</p>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <p>난 집간다</p>
-                </div>
-                <div class="col-lg-6 float-left">
-                    <p>회전목마 회전목마</p>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <p>난 집간다</p>
-                </div>
+                <!--.carousel-inner-->
+
+                <a class="carousel-control-prev" href="#infoCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#infoCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="carousel-item" data-interval="1000">
-                <div class="col-lg-6 float-left">
-                    <p>돌아간다 돌아간다</p>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <p>돌아간다 돌아간다</p>
-                </div>
-                <div class="col-lg-6 float-left">
-                    <p>돌아간다 돌아간다</p>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <p>돌아간다 돌아간다</p>
-                </div>
-                <div class="col-lg-6 float-left">
-                    <p>돌아간다 돌아간다</p>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <p>난 집간다</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-interval="1000">
-                <div class="col-lg-6 float-left">
-                    <p>ㅂ</p>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <p>ㅂ</p>
-                </div>
-                <div class="col-lg-6 float-left">
-                    <p>ㅂ</p>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <p>ㅂ</p>
-                </div>
-                <div class="col-lg-6 float-left">
-                    <p>ㅂ</p>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <p>ㅂ</p>
-                </div>
-            </div>
+            <!--.Carousel-->
         </div>
-
-
-        <a class="carousel-control-prev " href="#carouselInterval" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next " href="#carouselInterval" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 
 

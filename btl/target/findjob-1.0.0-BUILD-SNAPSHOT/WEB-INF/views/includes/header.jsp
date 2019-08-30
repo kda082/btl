@@ -16,8 +16,6 @@
 <%--chart 생성 위해서--%>
     <script type="text/javascript" src="resources/js/Chart.js"></script>
     <script type="text/javascript" src="resources/js/Chart.bundle.js"></script>
-    <%--reviewChart js 불러오기위해서--%>
-    <script type="text/javascript" src="resources/js/reivewChart.js"></script>
 
 </head>
 
