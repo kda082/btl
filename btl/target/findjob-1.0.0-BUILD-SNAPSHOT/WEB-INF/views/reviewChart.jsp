@@ -1,0 +1,212 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ include file="includes/header.jsp" %>
+
+<section>
+    <!--면접후기-->
+    <div class="container center-block">
+        <div class="card border-primary">
+            <div class="card-body">
+                <h4 class="card-title">면접 후기</h4>
+                <br>
+                <div class="row">
+                    <div class="col-md-4 py-1">
+                        면접 난이도
+                        <canvas id="interviewLevel"></canvas>
+                        <div class="text-center">
+                            <h4>3.4</h4>
+                            <text class="small">평균 난이도</text>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-1">
+                        면점 경험
+                        <canvas id="interviewExperience"></canvas>
+                    </div>
+                    <div class="col-md-4 py-1">
+                        면접 결과
+                        <canvas id="interviewResult"></canvas>
+                    </div>
+                </div>
+
+                <div class="card border-info mb-3">
+                    <div class="card-header small">2019-10-01</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="container-fluid">
+                                    <small class="font-weight-bold">면접 난이도</small>
+                                    <br>
+                                    <small style="color: #FF6384">어려움</small>
+                                    <br>
+                                    ------차트 그림------
+                                    <br>
+                                    <small class="font-weight-bold">면접 일자</small>
+                                    <br>
+                                    <small>2019-10-01</small>
+                                    <br>
+                                    <br>
+                                    <small class="font-weight-bold">면접 경로</small>
+                                    <br>
+                                    <small>공개 채용
+                                    </small></div>
+                            </div>
+                            <div class="col-lg-9">
+                                <text class="small">
+                                    면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용
+                                </text>
+                                <hr>
+                                <text class="small">
+                                    <text class="font-weight-bold">면접 질문</text>
+                                    <br>
+                                    면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문
+                                </text>
+                                <hr>
+                                <text class="small">
+                                    <text class="font-weight-bold">질문에 대한 답변</text>
+                                    <br>
+                                    질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변
+                                </text>
+                                <hr>
+                                <div class="row text-center">
+                                    <div class="col-lg-4">
+                                        발표시기<br>
+                                        365일 후
+                                    </div>
+
+                                    <div class="col-lg-4" style="border-left: 2px solid #ddd">
+                                        면접 결과<br>
+                                        불합격
+                                    </div>
+
+                                    <div class="col-lg-4" style="border-left: 2px solid #ddd">
+                                        면접 경험<br>
+                                        긍정적
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card border-info mb-3">
+                    <div class="card-header small">2019-10-01</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="container-fluid">
+                                    <small class="font-weight-bold">면접 난이도</small>
+                                    <br>
+                                    <small style="color: #FF6384">어려움</small>
+                                    <br>
+                                    ------차트 그림------
+                                    <br>
+                                    <small class="font-weight-bold">면접 일자</small>
+                                    <br>
+                                    <small>2019-10-01</small>
+                                    <br>
+                                    <br>
+                                    <small class="font-weight-bold">면접 경로</small>
+                                    <br>
+                                    <small>공개 채용
+                                    </small></div>
+                            </div>
+                            <div class="col-lg-9">
+                                <text class="small">
+                                    면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용면접내용
+                                </text>
+                                <hr>
+                                <text class="small">
+                                    <text class="font-weight-bold">면접 질문</text>
+                                    <br>
+                                    면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문면접질문
+                                </text>
+                                <hr>
+                                <text class="small">
+                                    <text class="font-weight-bold">질문에 대한 답변</text>
+                                    <br>
+                                    질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변질문에 대한 답변
+                                </text>
+                                <hr>
+                                <div class="row text-center">
+                                    <div class="col-lg-4">
+                                        발표시기<br>
+                                        365일 후
+                                    </div>
+
+                                    <div class="col-lg-4" style="border-left: 2px solid #ddd">
+                                        면접 결과<br>
+                                        불합격
+                                    </div>
+
+                                    <div class="col-lg-4" style="border-left: 2px solid #ddd">
+                                        면접 경험<br>
+                                        긍정적
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--페이지-->
+            <div class="container-fluid">
+                <div class="row col col-lg-12">
+                    <div class="col col-lg-2"></div>
+                    <div class="col col-lg-8">
+                        <ul class="pagination pagination-sm center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#">&laquo;</a>
+                            </li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">4</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">5</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">&raquo;</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-lg-2 text-right">
+                        <button type="button" class="btn btn-outline-info">후기 작성</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<footer class="main-footer">
+    <hr class="foot-hr">
+    <div class="footer-nav col-md-auto">
+        <div class="footer-nav-left" style="font-size: 15px; font-weight: bold;">
+            <div class="row">
+                <div class="footer-infos col-sm-2 pull-left">
+                    <a href="${contextPath}/faq">FAQ</a>
+                </div>
+                <div class="footer-infos col-sm-10 text-right">
+                    <strong>Copyright &copy;<a href="https://github.com/" target="_blank">BTL</a></strong> All rights
+                    reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<%@ include file="includes/footer.jsp" %>
+
